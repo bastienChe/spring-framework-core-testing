@@ -16,9 +16,15 @@
 <!-- 	<bean id="vehicule" class="spring.framework.core.Testing.Bike"></bean> -->
 
 
-<!--    define a bean and set a default value for our private attribute -->
+	<!--    define a bean and set a default value for our private attribute -->
 	<bean id="tyre" class="spring.framework.core.Testing.Tyre">
-		<property name="brand" value="BMW"></property>
+	
+	<!-- 	Using a setter injection -->
+	<!-- 	<property name="brand" value="BMW"></property> -->
+
+	
+	<!-- 	Using a constructor injection -->
+	<constructor-arg value="usingConstructorInjection"></constructor-arg>
 	</bean> 
 	
 </beans>
