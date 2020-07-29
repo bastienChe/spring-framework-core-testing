@@ -10,9 +10,13 @@
 	    http://www.springframework.org/schema/context/spring-context.xsd">
         
 	<context:component-scan base-package="spring.framework.core.Testing"></context:component-scan>
+	
+	
+<!--    get car class as an implementation of Vehicule -->
 <!-- 	<bean id="vehicule" class="spring.framework.core.Testing.Bike"></bean> -->
 
 
+<!--    define a bean and set a default value for our private attribute -->
 	<bean id="tyre" class="spring.framework.core.Testing.Tyre">
 		<property name="brand" value="BMW"></property>
 	</bean> 

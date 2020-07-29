@@ -1,6 +1,5 @@
 package spring.framework.core.Testing;
 
-import org.springframework.stereotype.Component;
 
 public class Tyre {
 

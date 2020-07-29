@@ -14,6 +14,7 @@ public class App
 
     	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
     	
+//    	Using context to retrieve an implementation (the goal is to use the implementation "bike")
 //    	Vehicule obj = (Vehicule)context.getBean("bike");
 //    	obj.drive();
     	
