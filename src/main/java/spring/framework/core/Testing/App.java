@@ -13,8 +13,11 @@ public class App
     {
 
     	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-    	Vehicule obj = (Vehicule)context.getBean("bike");
-    	obj.drive();
-        
+    	
+//    	Vehicule obj = (Vehicule)context.getBean("bike");
+//    	obj.drive();
+    	
+    	Tyre t = (Tyre)context.getBean("tyre");
+    	System.out.println(t.toString());
     }
 }

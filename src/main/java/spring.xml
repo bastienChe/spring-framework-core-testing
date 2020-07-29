@@ -11,5 +11,10 @@
         
 	<context:component-scan base-package="spring.framework.core.Testing"></context:component-scan>
 <!-- 	<bean id="vehicule" class="spring.framework.core.Testing.Bike"></bean> -->
+
+
+	<bean id="tyre" class="spring.framework.core.Testing.Tyre">
+		<property name="brand" value="BMW"></property>
+	</bean> 
 	
 </beans>
