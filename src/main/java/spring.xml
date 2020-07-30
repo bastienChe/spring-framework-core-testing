@@ -24,7 +24,7 @@
 
 	
 	<!-- 	Using a constructor injection -->
-	<constructor-arg value="usingConstructorInjection"></constructor-arg>
+	<!-- 	<constructor-arg value="usingConstructorInjection"></constructor-arg> -->
 	</bean> 
 	
 </beans>

@@ -12,13 +12,15 @@ public class App
     public static void main( String[] args )
     {
 
+    	
     	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
     	
 //    	Using context to retrieve an implementation (the goal is to use the implementation "bike")
-//    	Vehicule obj = (Vehicule)context.getBean("bike");
-//    	obj.drive();
+    	Vehicule obj = (Vehicule)context.getBean("car");
+    	obj.drive();
     	
-    	Tyre t = (Tyre)context.getBean("tyre");
-    	System.out.println(t.toString());
+//    	testing constructor and xml injection
+//    	Tyre t = (Tyre)context.getBean("tyre");
+//    	System.out.println(t.toString());
     }
 }
